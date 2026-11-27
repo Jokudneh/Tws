@@ -1021,7 +1021,7 @@ impl App {
         // (digit), cancels silently (Esc), or cancels and falls through (any other key).
         if let Some(pending) = self.pin_assign_pending.take() {
             if let KeyCode::Char(c) = code
-                && c.is_ascii_digit()
+                && ("1"..="9").contains(&c.to_string().as_str())
             {
                 let slot: u8 = c.to_digit(10).unwrap() as u8;
                 let snapshot = agents.iter().find(|a| a.pane_id == pending);
