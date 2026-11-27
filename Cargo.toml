@@ -3,9 +3,10 @@ name = "tws"
 version = "1.20.0"
 edition = "2024"
 description = "terminal workspace manager — organize sessions into threads, on Rex or tmux"
-authors = ["Yusuf Taskiran"]
+authors = ["Naomi Fairbairn"]
 license = "MIT"
-repository = "https://github.com/ytaskiran/tws"
+homepage = "https://github.com/Jokudneh/tws"
+repository = "https://github.com/Jokudneh/tws"
 keywords = ["tmux", "terminal", "tui", "workspace"]
 categories = ["command-line-utilities"]
 
